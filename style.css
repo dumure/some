@@ -1,0 +1,246 @@
+.container
+{
+    width: 90%;
+    height: 1030px;
+    position: relative;
+}
+
+
+.brown-square:first-child
+{
+    top: 30px;
+    left: 30px;
+    height: 5rem;
+    width: 5rem;
+    background-color:brown;
+    position: absolute;
+}
+.midnightblue-square:nth-child(2)
+{
+    top: 130px;
+    left: 130px;
+    height: 5rem;
+    width: 5rem;
+    background-color:midnightblue;
+    position: absolute;
+}
+.goldenrod-square:nth-child(3)
+{
+    top: 230px;
+    left: 230px;
+    height: 5rem;
+    width: 5rem;
+    background-color:goldenrod;
+    position: absolute;
+}
+.brown-square:nth-child(4)
+{
+    top: 20px;
+    left: 430px;
+    height: 5rem;
+    width: 5rem;
+    background-color:brown;
+    position: absolute;
+}
+.midnightblue-square:nth-child(5)
+{
+    top: 20px;
+    left: calc(430px + 3rem + 50px);
+    height: 5rem;
+    width: 5rem;
+    background-color:midnightblue;
+    position: absolute;
+}
+.goldenrod-square:nth-child(6)
+{
+    top: 20px;
+    left: calc(430px + 6rem + 100px);
+    height: 5rem;
+    width: 5rem;
+    background-color:goldenrod;
+    position: absolute;
+}
+.brown-square:nth-child(7)
+{
+    top: 400px;
+    left: 30px;
+    height: 5rem;
+    width: 5rem;
+    background-color:brown;
+    position: absolute;
+}
+.midnightblue-square:nth-child(8)
+{
+    top: calc(400px + 3rem);
+    left: calc(30px + 3rem);
+    height: 5rem;
+    width: 5rem;
+    background-color:midnightblue;
+    position: absolute;
+    z-index: 1;
+}
+.goldenrod-square:nth-child(9)
+{
+    top: calc(400px + 6rem);
+    left: calc(30px + 6rem);
+    height: 5rem;
+    width: 5rem;
+    background-color:goldenrod;
+    position: absolute;
+}
+.brown-square:nth-child(10)
+{
+    top: 400px;
+    left: 230px;
+    height: 5rem;
+    width: 5rem;
+    background-color:brown;
+    position: absolute;
+    z-index: 1;
+}
+.midnightblue-square:nth-child(11)
+{
+    top: calc(400px + 3rem);
+    left: calc(30px + 3rem + 200px);
+    height: 5rem;
+    width: 5rem;
+    background-color:midnightblue;
+    position: absolute;
+}
+.goldenrod-square:nth-child(12)
+{
+    top: calc(400px + 6rem);
+    left: calc(30px + 6rem + 200px);
+    height: 5rem;
+    width: 5rem;
+    background-color:goldenrod;
+    position: absolute;
+    z-index: 1;
+}
+.brown-square:nth-child(13)
+{
+    top: 400px;
+    left: 430px;
+    height: 5rem;
+    width: 5rem;
+    background-color:brown;
+    position: absolute;
+}
+.midnightblue-square:nth-child(14)
+{
+    top: calc(400px + 3rem);
+    left: calc(30px + 3rem + 400px);
+    height: 5rem;
+    width: 5rem;
+    background-color:midnightblue;
+    position: absolute;
+}
+.goldenrod-square:nth-child(15)
+{
+    top: calc(400px + 6rem);
+    left: calc(30px + 6rem + 400px);
+    height: 5rem;
+    width: 5rem;
+    background-color:goldenrod;
+    position: absolute;
+}
+.brown-square:nth-child(16)
+{
+    top: 400px;
+    left: 630px;
+    height: 5rem;
+    width: 5rem;
+    background-color:brown;
+    position: absolute;
+    z-index: 2;
+}
+.midnightblue-square:nth-child(17)
+{
+    top: calc(400px + 3rem);
+    left: calc(30px + 3rem + 600px);
+    height: 5rem;
+    width: 5rem;
+    background-color:midnightblue;
+    position: absolute;
+    z-index: 1;
+}
+.goldenrod-square:nth-child(18)
+{
+    top: calc(400px + 6rem);
+    left: calc(30px + 6rem + 600px);
+    height: 5rem;
+    width: 5rem;
+    background-color:goldenrod;
+    position: absolute;
+}
+.brown-square:nth-child(19)
+{
+    top: 670px;
+    left: 100px;
+    height: 20rem;
+    width: 20rem;
+    background-color:brown;
+    position: absolute;
+}
+.midnightblue-square:nth-child(20)
+{
+    top: 700px;
+    left: 130px;
+    height: 5rem;
+    width: 5rem;
+    background-color:midnightblue;
+    position: absolute;
+}
+.goldenrod-square:nth-child(21)
+{
+    top: calc(700px + 20rem - 5rem - 60px);
+    left: calc(130px + 20rem - 5rem - 60px);
+    height: 5rem;
+    width: 5rem;
+    background-color:goldenrod;
+    position: absolute;
+}
+.brown-square:nth-child(22)
+{
+    top: 670px;
+    left: 500px;
+    height: 20rem;
+    width: 20rem;
+    background-color:brown;
+    position: absolute;
+}
+.midnightblue-square:nth-child(23)
+{
+    top: calc(700px + 10rem);
+    left: calc(500px + 10rem - 2.5rem);
+    height: 5rem;
+    width: 5rem;
+    background-color:midnightblue;
+    position: absolute;
+    z-index: 1;
+}
+.goldenrod-circle:nth-child(24)
+{
+    top: calc(670px + 1rem);
+    left: calc(500px + 2rem);
+    height: 16rem;
+    width: 16rem;
+    border-radius: 100%;
+    background-color:goldenrod;
+    position: absolute;
+}
+.brown-circle:nth-child(25)
+{
+    top: calc(670px + 9rem);
+    left: calc(500px + 5rem);
+    height: 10rem;
+    width: 10rem;
+    border-radius: 100%;
+    background-color:brown;
+    position: absolute;
+}
+body
+{
+    background-color: blanchedalmond;
+}
+
